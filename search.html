@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+<body>
+    <form action=" https://fom.in.ua/echo">
+
+        <label for="body_chosen">Body Type:</label>
+        <select size="" name="body" id="body_chosen" required>
+            <option value="Coupe">Coupe</option>
+            <option value="Sedan">Sedan</option>
+            <option value="Sport car">Sport car</option>
+            <option value="Hatchback">Hatchback</option>
+            <option value="Convertible">Convertible</option>
+            <option value="SUV">SUV</option>
+            <option value="MiviVan">MiviVan</option>
+        </select>
+
+        <p><label for="brand_chosen">Brand:</label>
+        <select name="brand" id="brand_chosen">
+            <option value="Mazda">Mazda</option>
+            <option value="Porshe">Poershe</option>
+            <option value="Toyota">Toyota</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Hyndai">Hyndai</option>
+        </select></p>
+
+        <p><label for="price">Price</label>
+        <input type="range"  step="100" min="1500" max="8999999" name="price" id="price_chosen"></p>
+
+        <p><label for="year_est">Year</label>
+        <input type="range"  step="1" min="1960" max="2021" name="year_est" id="year_est"></p>
+
+        <p>Condition: 
+        <input type="checkbox" name="bita" id="c1">
+        <label for="c1">Бита</label>
+        <input type="checkbox" name="ne_bita" id="c2">
+        <label for="c2">Не Бита</label>
+        <input type="checkbox" name="credit" id="c3">
+        <label for="c3">В кредите</label>
+        <input type="checkbox" name="NDS_not_paid" id="c4">
+        <label for="c4">Не растаможена</label>
+
+        <p>Fuel Type:
+        <input type="radio" name="palne" value="benz" id="f1">
+        <label for="f1">Бензин</label>
+        <input type="radio" name="palne" value="hybrid" id="f2">
+        <label for="f2">Гибрид</label>
+        <input type="radio" name="palne" value="electr" id="f3">
+        <label for="f3">Электрочество</label>
+        <input type="radio" name="palne" value="disel" id="f4">
+        <label for="f4">Дизель</label>
+        <input type="radio" name="palne" value="H2" id="f5">
+        <label for="f5">Водород</label>
+
+        <p>Gearbox: 
+        <input type="radio" name="gearbox" value="mech" id="mech">
+        <label for="mech">Механика</label>
+        <input type="radio" name="gearbox" value="auto" id="automat">
+        <label for="automat">Автомат</label>
+        <input type="radio" name="gearbox" value="robot" id="robot">
+        <label for="robot">Роботизированная</label> 
+
+        <p>Body Color:
+        <select name="color" id="color_chosen">
+            <option value="Black">Black</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Blue">Blue</option>
+            <option value="White">Red</option>
+            <option value="Purple">Purple</option>
+            <option value="Green">Green</option>
+        </select></p>
+
+        <p>Comfort Includiables: 
+        <input type="checkbox" name="luk" id="q1">
+        <label for="q1">Люк</label> 
+        <input type="checkbox" name="autodovodchik" id="q2">
+        <label for="q2">Автодоводчики</label> 
+        <input type="checkbox" name="lether salon" id="q3">
+        <label for="q3">Кожанный салон</label> 
+        <input type="checkbox" name="proekciya na lobovoe" id="q4">
+        <label for="q4">Проекция спидометра на лобовое стекло</label> 
+        <input type="checkbox" name="water_holders" id="q5">
+        <label for="q5">Подстаканники</label>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+
+</body>
+</html>
