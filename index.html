@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       p{ color:blue; } 
+
+       #selc_id{
+            color: yellow;
+       }
+       .klass{
+            color:aqua;
+       }
+       .paint_it_red{
+            color: red;
+       }
+       span.kekw{
+            color: sandybrown;
+       }
+       ol li p {
+            color: violet;
+       }
+       *{
+            color: turquoise;
+       }
+       q+cite{
+           color: steelblue;
+       }
+       li>a    {
+           color: royalblue;
+       }
+       a[target="wow"]{
+           color: salmon;
+       }
+       a[href="http"]
+       {
+           color: tan;
+       }
+    </style>
+</head>
+<body>
+    <h1>Типы селекторов</h1>
+    <ol>
+        <li>По названию элемента(тэга) - p{color:blue;}</li>
+        <li>По id - #selc_id{color: yellow;}</li>
+        <li>По классу - .klass{color:aqua;}</li>
+        <li>По нескольким классам - <q>paint_it_red</q> & <q>span.kekw</q></li>
+        <li>По вложенности - ol li p{color:violet}</li>
+        <li>Универсальный селектор - *{color:brown}</li>
+        <li>Соседние селекторы - q+cite{color:steelblue}</li>
+        <li>Дочерние селекторы - li>a{color:royalblue}</li>
+        <li>[атрибут="значение"] - a[target="wow"]{color:salmon;}</li>
+        <li>[атрибут^="значение"] - a[href="http"]{color:tan}</li>
+    </ol>
+    <h2>Результат их применения</h2>
+    <ol>
+        <li>
+            <div>
+                Qwerty 
+            </div>
+        </li>
+        <li>
+            <a id="selc_id" href="#">qdwdqwdqwd</a>
+        </li>
+        <li>
+            <div class="klass">
+                Klass
+            </div>
+        </li>
+        <li>
+            <div>
+               <span class="paint_it_red">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <span class="kekw">Deserunt repellat laboriosam ex?</span></span>
+            </div>
+        </li>
+        <li>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+            </p>
+        </li>
+        <li>
+            Универсальный везде офк)
+        </li>
+        <li>
+            <cite>Lorem</cite> ipsum <q>dolor</q> sit <cite>amet</cite> consectetur.
+        </li>
+        <li>
+            <a href="#">Lorem ipsum dolor sit amet.</a>
+        </li>
+        <li>
+            <a href="#">Lorem ipsum dolor sit.</a>
+            <a href="#" target="wow">Lorem ipsum dolor sit amet.</a>
+        </li>
+        <li>
+            <a href="#">qwdqwkfhoqwpkfqwflqwf</a>
+            <a href="http">Lorem ipsum dolor sit.</a>
+        </li>
+    </ol>
+</body>
+</html>
