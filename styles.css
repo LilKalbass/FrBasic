@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('subset-Roboto-Medium.eot');
+    src: url('/fonts/subset-Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/subset-Roboto-Medium.woff2') format('woff2'),
+        url('/fonts/subset-Roboto-Medium.woff') format('woff'),
+        url('/fonts/subset-Roboto-Medium.ttf') format('truetype'),
+        url('/fonts/subset-Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/subset-Roboto-Regular.eot');
+    src: url('/fonts/subset-Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/subset-Roboto-Regular.woff2') format('woff2'),
+        url('/fonts/subset-Roboto-Regular.woff') format('woff'),
+        url('/fonts/subset-Roboto-Regular.ttf') format('truetype'),
+        url('/fonts/subset-Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+.container{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-st{
+    background-color:rgba(238, 239, 241, 1);
+}
+.bg-nd{
+    background-color: #FFFFFF;
+}
+.bg-rd{
+    background-color: rgba(52, 84, 122, 1);
+}
+.bg-th{
+    background-color: rgba(238, 239, 241, 1);
+}
+.header{
+    display: inline-block;
+    margin-top: 80px;
+    color:rgba(0,0,0, 1);
+    margin-right: 42px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-decoration-line: none;
+}
+.button{
+    background-color:rgba(52, 84, 122, 1);
+    color: rgba(255, 255, 255, 1);
+    padding :20px 40px; 
+    margin-top: 54px;
+    margin-bottom: 140px;
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+.stdiv-h-article{
+    margin-top: 160px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 60px;  
+}
+.nddiv-h-article{
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;  
+    margin-top: 112px;
+    text-align: center;
+}
+.lastdiv-h{
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.infa-1{
+    color:rgba(114, 114, 114, 1);
+    margin-top: 45px;
+    width: 540px;
+    font-family:'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.infa-2{
+    color:rgba(114, 114, 114, 1);
+    margin-top: 42px;
+    margin-bottom: 89px;
+    display: block;
+    width: 540px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.infa-3{
+    color:rgba(114, 114, 114, 1);
+    margin-top: 42px;
+    margin-bottom: 46px;
+    display: block;
+    width: 540px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 26px;
+}
+.lastdiv-infa{
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 47px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+}
+.card{
+    display:inline-block;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 45px;
+}
+.card-text{
+    color: rgba(255, 255, 255, 1);
+    display:inline-block;
+    margin-left: 15px;
+}
+.last-card{
+    display:inline-block;
+    margin-right: 0px;
+}
+.card-h{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.c-text{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+.hid{
+    visibility: hidden;
+}
+.vidos{
+
+    margin-bottom: 100px;
+}
