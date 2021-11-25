@@ -1,0 +1,17 @@
+.list{
+    margin: 0px;
+    list-style: none;
+}
+.list_item{
+    display: inline-block;
+}
+.list_link{
+    background-color: gray;
+    padding: 5px 15px;
+}
+.product-list{
+    display: none;
+}
+.subItem-list{
+    display: none;
+}
