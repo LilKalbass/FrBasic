@@ -1,52 +1,97 @@
-*{
-    box-sizing: border-box;
-}
-.list{
-    margin: 0px;
-    padding: 0px;
-    font-size: 0px;
-    list-style: none;
-}
-.list_item{
-    display: inline-block;
-    vertical-align: top;
-    font-size:16px;
-}
-.product-list_item{
-    display: block;
-}
-.subItem-list_link{
-    display: inline-block;
-    background-color: gray;
-    padding: 5px 15px;
-    text-decoration: none;
-    color: white;
-}
-.list_link{
-    display: block;
-    background-color: gray;
-    padding: 5px 15px;
-    text-decoration: none;
-    color: white;
-}
-.product-list_link{
-    display: block;
-    background-color:lightblue;
-    border: solid 0.5px blue;
-}
-.product-list{
-  display: none;
-}
-.subItem-list{
-   display: none;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.list_link:hover{
-    background-color:lightblue;
+.product-list {
+  display: none;
+  position: absolute;
 }
-.list_item:hover .product-list{
-    display: block;
+
+.subItem-list {
+  display: none;
+  position: absolute;
+  top: -1px;
+  left: 92px;
 }
-.product-list_item:hover .subItem-list{
-    display: block;
+
+.list {
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+  list-style: none;
 }
+
+.list_item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.product-list_item {
+  display: block;
+  border: solid 1px blue;
+  position: relative;
+}
+
+.subItem-list_item {
+  display: block;
+  border: solid 1px blue;
+}
+
+.subItem-list_link {
+  display: block;
+  background-color: gray;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.list_link {
+  display: block;
+  background-color: gray;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.product-list_link {
+  display: block;
+  background-color: gray;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.product-list_item:first-child {
+  border-bottom: solid 0px blue;
+}
+
+.subItem-list_item:first-child {
+  border-bottom: solid 0px blue;
+}
+
+.list_item:hover .product-list {
+  display: block;
+}
+
+.product-list_item:hover .subItem-list {
+  display: block;
+}
+
+.list_item:hover .list_link {
+  background-color: lightblue;
+}
+
+.product-list_item:hover .product-list_link {
+  background-color: lightblue;
+}
+
+.subItem-list_item:hover .subItem-list_link {
+  background-color: lightblue;
+}
+
+.line {
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
