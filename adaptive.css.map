@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAAA,SAAS;AAmBT,OAAO,CAAP,sCAAO;AAlBP,MAAM,EAAC,SAAS,EAAE,KAAK;EACnB,AAAA,UAAU,CAAA;IACN,KAAK,EAAE,IAAI;GACd;EACD,AAAA,WAAW,CAAA;IACP,KAAK,EAAE,IAAI;GACd;EACD,AAEQ,MAFF,CACF,WAAW,CACP,UAAU,CAAA;IACN,KAAK,EAAC,IAAI;IACV,OAAO,EAAE,IAAI;IACb,cAAc,EAAE,MAAM;IACtB,SAAS,EAAE,IAAI;GAClB",
+    "sources": [
+        "adaptive.scss"
+    ],
+    "names": [],
+    "file": "adaptive.css"
+}

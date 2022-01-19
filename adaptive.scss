@@ -1,0 +1,20 @@
+/*768px*/
+@media(max-width: 768px){
+    .container{
+        width: auto;
+    }
+    .container2{
+        width: auto;
+    }
+    header{
+        .header-nav{    
+            .container{
+                width:auto;
+                display: flex;
+                flex-direction: column;   
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+@import "styles.css"
